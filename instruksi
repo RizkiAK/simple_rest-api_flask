@@ -1,3 +1,10 @@
 procfile:
 reload --automatis update
 workers 2 --jumlah load processing yg bekerja
+
+
+push to github
+git init
+git commit -m "tambah resource"
+git remote add origin https://github.com/RizkiAK/simple_rest-api_flask.git
+git push origin master
